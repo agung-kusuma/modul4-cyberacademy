@@ -1,5 +1,5 @@
 const api_url =
-  "https://api.thingspeak.com/channels/{Channel ID}/feeds.json?api_key={API key Read}&results=1";
+  "https://api.thingspeak.com/channels/2367451/feeds.json?api_key=Y0PT0AILC1P17WXY&results=2";
 
 setInterval(() => {
   fetch(api_url)
